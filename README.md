@@ -1,3 +1,4 @@
 # irukabandoApp
 * 水族館情報の集約と記念日管理を行うアンドロイドアプリの情報集約用
 * アプリのソースコードおよび apk などのインストールファイルは開発協力者のみに提供します
+* https://irukabando.github.io/irubabandoApp/
