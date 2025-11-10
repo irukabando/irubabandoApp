@@ -71,7 +71,7 @@
         .card {
             background-color: white;
             padding: 1.5rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem; /* セクション間の区切りを明確にするため少し調整 */
             border-radius: 8px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
             border-top: 3px solid #007bff;
@@ -117,7 +117,7 @@
         }
         
         dl br {
-            display: none; /* 元のbrタグはデザインのため非表示に */
+            display: none; /* 元のbrタグはデザインのため非表示に（FAQ内で使用されているbrタグを想定） */
         }
 
         /* 画像のレスポンシブ対応 */
@@ -200,10 +200,53 @@
             font-weight: bold;
         }
 
+        /* 目次スタイル */
+        #table-of-contents {
+            padding: 1rem 0;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 2rem;
+        }
+
+        #table-of-contents h2 {
+            border-bottom: none;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-size: 1.2rem;
+        }
+
+        #table-of-contents ul {
+            list-style-type: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #table-of-contents li {
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+            background: none;
+            padding: 0;
+            border-left: none;
+        }
     </style>
 </head>
 <body>
 
+    <div class="container">
+        <nav id="table-of-contents">
+            <h2>目次</h2>
+            <ul>
+                <li><a href="#history">新着情報・更新履歴</a></li>
+                <li><a href="#download">ダウンロード</a></li>
+                <li><a href="#feature">アプリの詳細</a></li>
+                <li><a href="#faq">よくある質問 (FAQ)</a></li>
+                <li><a href="#legal">法的情報・お問い合わせ</a></li>
+                <li><a href="#privacy_policy">プライバシーポリシー</a></li>
+                <li><a href="#terms_of_service">利用規約</a></li>
+            </ul>
+        </nav>
+    </div>
+    
     <header>
         <div class="container">
             <h1>坂東入香 - Android アプリ</h1>
@@ -230,7 +273,7 @@
             <div class="card">
                 <h2>ダウンロード</h2>
                 <p>本アプリのダウンロードは、アプリ開発にご協力いただいている方に限定しております。</p>
-                <p>ダウンロードをご希望の方は、<a href="#legal">坂東入香</a>にお問い合わせください。</p>
+                <p>ダウンロードをご希望の方は、<a href="#legal">開発者（坂東入香）までお問い合わせ</a>ください。</p>
             </div>
         </section>
 
@@ -240,14 +283,14 @@
             <div class="card">
                 <h3>アプリの機能と特徴</h3>
                 <ul>
-                    <li>水族館のお知らせ、ブログ記事の更新情報をスクレイピングし最新記事を一覧表示します。</li>
+                    <li>水族館のお知らせ、ブログ記事の更新情報をスクレイピングし、最新記事を一覧表示します。</li>
                     <li>動物たちの記念日や水族館の休館日を表示するカレンダー機能を提供します。</li>
                 </ul>
 
                 <h3>使用上の注意事項</h3>
                 <ul>
-                    <li>本アプリはアンドロイドアプリです。iPhone では作動しません。</li>
-                    <li>Android バージョンが 10 以上でないと動作しません。最低バージョンは段階的に引き上げる予定です。</li>
+                    <li>本アプリは Android アプリです。iPhone では動作しません。</li>
+                    <li>Android バージョンが 10 以上でないと動作しません。対応Androidバージョンは今後段階的に引き上げる予定です。</li>
                 </ul>
             </div>
             
@@ -255,8 +298,9 @@
                 <h3>スクリーンショット / 利用イメージ</h3>
                 <p>本アプリの仕様は今後変わることがあります。あくまでもイメージとしてご覧ください。</p>
 
-                <h4>水族館のお知らせを一覧表示</h4>
-                <p>お知らせを SNS のタイムラインのように一覧表示できます</p>                
+                <h4>お知らせの一覧表示</h4>
+                <p>お知らせをSNSのタイムラインのように一覧表示が可能です。</p>    
+                
                 <img src="images/DisplayAquaNews.jpg" alt="水族館のお知らせ一覧表示イメージ" width="500px">
 
                 <p>お知らせを検索することもできます。検索キーワードが部分一致するお知らせを表示します。</p>
@@ -267,7 +311,7 @@
                 <img src="images/SelectAquarium.jpg" alt="水族館選択画面イメージ" width="500px">
 
                 <h4>お知らせの詳細情報にアクセス</h4>
-                <p>お知らせをタップすると、情報源の Web ページにアクセスすることができます</p>
+                <p>お知らせをタップすると、情報源のWebページにアクセスすることができます</p>
                 <img src="images/AccessWebpage.jpg" alt="ウェブページへのアクセスポップアップイメージ" width="500px">
 
                 <h4>バックグラウンド処理と通知</h4>
@@ -284,14 +328,14 @@
                 <p>水族館に関する予定に特化した入力項目となっています</p>
                 <img src="images/CalendarEventAdd.jpg" alt="イベントの追加画面表示イメージ" width="500px">
 
-                <h4>カレンダーへのイベントの追加</h4>
-                <p>イベントを追加できます</p>
+                <h4>イベント詳細の確認</h4>
+                <p>追加したイベントの詳細を確認できます</p>
                 <p>水族館に関する予定に特化した入力項目となっています</p>
                 <img src="images/CalendarEventDetail.jpg" alt="イベントの詳細画面表示イメージ" width="500px">
 
                 <h4>本日の豆知識</h4>
                 <p>豆知識を1日1つランダムで表示します</p>
-                <p>AI による生成を行っているため、正確とは限りません</p>
+                <p>AIにより生成しているため、情報が不正確な場合があります</p>
                 <img src="images/TodayKnowledge.jpg" alt="本日の豆知識表示イメージ" width="500px">
                 
                 <h4>アプリ紹介動画（準備中）</h4>
@@ -304,14 +348,14 @@
                 <dl>
                     <dt>Q: アプリの利用に費用はかかりますか？</dt>
                     <dd>
-                        A: 無料です。
+                        A: 無料です。<br>
                         ただし、開発にご協力いただくことがご利用の条件となります。<br>
-                        わがままで恐縮ですが、人は選びます。
+                        大変恐縮ですが、協力いただける方を限定させていただきます。
                     </dd>
                     
                     <dt>Q: どの水族館の情報を見ることができますか？</dt>
                     <dd>A: 現在、25館に対応しています。今後、さらに拡充予定です。<br>
-                        具体的な園館は、インストール後にお知らせの絞り込みプルダウンメニューでご確認ください。
+                        具体的な園館は、インストール後、お知らせの絞り込みメニューにてご確認いただけます。
                     </dd>
                     
                     <dt>Q: データはどこに保存されますか？</dt>
@@ -321,14 +365,14 @@
                     <dd>A: 設定画面で通知をオフにできます。</dd>
                     
                     <dt>Q: 通知が届く頻度を変更したいのですが？</dt>
-                    <dd>A: 設定画面でスクレイピングの頻度を設定できます。通知間隔はスクレイピング間隔と同じです。</dd>
+                    <dd>A: 設定画面でスクレイピングの頻度（＝通知間隔）を設定できます。</dd>
                     
-                    <dt>Q: バグが見つかりました。質問があります。提案があります。</dt>
+                    <dt>Q: バグの報告、ご質問、機能提案などはこちらからお願いします。</dt>
                     <dd>A: <a href="https://github.com/irukabando/irubabandoApp/issues" target="_blank">GitHub の Issues</a> に投稿してください。</dd>
                     
                     <dt>Q: iPhone 版を作ってください。</dt>
                     <dd>A: 現在作る予定はありません。<br>
-                        開発者に iPhone ユーザーがいないためテストができないこと、開発の負担が大きくなることが主な理由です。
+                        開発者にiPhoneユーザーがいないためテストができないこと、開発の負担が大きくなることが主な理由です。
                     </dd>
                 </dl>
             </div>
@@ -366,9 +410,9 @@
                 <h3>1. 取得する情報と利用目的</h3>
                 <p>本アプリが取得する情報およびその利用目的は以下の通りです。</p>
 
-                <p>取得する情報: 広告識別子、クラッシュログ、利用状況に関する統計情報</p>
+                <p>取得する情報：広告識別子、クラッシュログ、利用状況に関する統計情報</p>
 
-                <p>利用目的: サービスの提供、改善、新機能の開発、利用状況の分析、および適切な広告の表示のため。</p> 
+                <p>利用目的：サービスの提供、改善、新機能の開発、利用状況の分析、および適切な広告の表示のため。</p>  
 
                 <h3>2. 個人情報の定義と収集</h3>
                 <p>本ポリシーにおける「個人情報」とは、個人情報保護法にいう個人情報を指すものとします。本アプリでは、氏名、住所、電話番号など、特定の個人を識別できる情報は直接取得しません。</p>
