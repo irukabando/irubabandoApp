@@ -5,7 +5,7 @@
 
 ## 更新方法
 以下を追加
-
+        
         <div class="notice-record">
             
             <span class="data-field" data-type="id">1001</span>
@@ -25,9 +25,3 @@
 * id は連番
 * url は本ディレクトリに html を作るなどして指定
 * お知らせは念のため1つ残す
-
-``
-<html>
-        <body></body>
-</html>
-``
