@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>坂東入香 - Android アプリ</title>
+    <style>
+        /* CSSリセットとベーススタイル (Tailwind CSS 的なコンセプトで作成) */
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9; /* わずかにグレーの背景 */
+            color: #333;
+        }
+
+        .container {
+            max-width: 1024px; /* PCでの最大幅を制限 */
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background-color: #007bff; /* メインカラー */
+            color: white;
+            /* 目次をheaderの直下に移動したため、padding-bottomを調整 */
+            padding: 3rem 1rem 1rem 1rem; 
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        /* セクションタイトル */
+        h2 {
+            font-size: 1.75rem;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #007bff;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+        }
+        
+        h4 {
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-weight: bold;
+        }
+
+        /* カードデザイン */
+        .card {
+            background-color: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem; /* セクション間の区切りを明確にするため少し調整 */
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            border-top: 3px solid #007bff;
+        }
+
+        /* リストスタイル */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background: #e9ecef;
+            margin-bottom: 0.5rem;
+            padding: 0.75rem 1rem;
+            border-radius: 4px;
+            border-left: 5px solid #007bff;
+        }
+
+        /* DL/FAQセクションの段落 */
+        #download p, #feature p, #faq dt, #faq dd {
+            margin-bottom: 0.5rem;
+        }
+
+        /* よくある質問 (FAQ) */
+        dl dt {
+            font-weight: bold;
+            color: #333;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #e9ecef;
+            border-radius: 4px 4px 0 0;
+            border-left: 5px solid #28a745; /* アクセントカラー */
+        }
+        
+        dl dd {
+            padding: 1rem;
+            background-color: white;
+            margin-left: 0;
+            border-radius: 0 0 4px 4px;
+            border: 1px solid #dee2e6;
+            border-top: none;
+        }
+        
+        dl br {
+            display: none; /* 元のbrタグはデザインのため非表示に（FAQ内で使用されているbrタグを想定） */
+        }
+
+        /* 画像のレスポンシブ対応 */
+        img {
+            max-width: 100%; /* スマホでの横スクロールを防ぐ */
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* 準備中メッセージの強調 */
+        #feature h4 {
+            color: #dc3545; /* 赤色 */
+        }
+        
+        /* 法的情報 */
+        #legal h3 a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* プライバシーポリシーのテーブル */
+        #privacy_policy table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        #privacy_policy th, #privacy_policy td {
+            border: 1px solid #dee2e6;
+            padding: 12px 8px;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+        #privacy_policy thead th {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+        #privacy_policy tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        /* フッター */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: #adb5bd;
+            font-size: 0.9rem;
+        }
+        
+        /* 区切り線はCSSで非表示にしてセクションで代用 */
+        hr {
+            display: none;
+        }
+        
+        /* リンクのスタイル */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-list li {
+            background: none;
+            padding: 0;
+            margin-bottom: 0.5rem;
+            border-left: none;
+        }
+
+        .back-to-top {
+            display: block;
+            text-align: right;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        /* 目次スタイル */
+        #table-of-contents {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #ccc;
+            /* containerクラスが適用されるようにmargin-bottomを調整 */
+            margin-bottom: 1rem; 
+            background-color: white; /* 背景色を設定して区切りを明確に */
+            border-top: 1px solid #eee;
+        }
+
+        #table-of-contents h2 {
+            border-bottom: none;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-size: 1.2rem;
+            /* 左右のパディングをsectionと合わせるために0に */
+            padding-left: 0; 
+            padding-right: 0;
+        }
+
+        #table-of-contents ul {
+            list-style-type: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #table-of-contents li {
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+            background: none;
+            padding: 0;
+            border-left: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>坂東入香 - お知らせ</h1>
+            <!-- <p>アプリの最新情報と重要な告知はこちらでご確認ください。</p> -->
+        </div>
+    </header>
+    
+    <div class="container">
+
+
+        <section id="notice">
+            <div class="card">
+                <h2>あけましておめでとうございます</h2>
+                <p>いつも坂東入香アプリをご利用いただき、ありがとうございます。</p>
+                <p>2025年は、皆さまからの温かいご声援や貴重なフィードバックのおかげで、坂東入香アプリのベースとなる機能を整備することができました。
+                    心より感謝申し上げます。</p>
+                <h3>2026年の抱負とアップデート予定</h3>
+                <p>ユーザーの皆様に便利な機能をお届けできるよう、継続的な開発、アップデートを行ってまいります。</p>
+                <ul>
+                    <li><strong>対応園館の拡充</strong>: スクレイピング対象を徐々に増やします。拡充のご希望はお気軽にお申し付けください。</li>
+                    <li><strong>使いやすさの改善</strong>: 細かいバグ修正やデザインの最適化を随時行います。</li>
+                    <li><strong>新規機能の実装</strong>: 機種変更時のデータ移行などの新規機能の実装を行います。提案はお気軽にお申し付けください。</li>
+                </ul>
+                <h3>ご意見をお聞かせください</h3>
+                <p>
+                    今後も皆さまのご意見を取り入れながら、アプリを改善していきたいと考えています。
+                </p>
+                <p>
+                    「この園館もスクレイピングしてほしい」「こんな機能が欲しい」「ここを直してほしい」などのいつでもお気軽にお知らせください。
+                </p>
+                <h3>お問い合わせ</h3>
+                <p>坂東入香</p>
+                <ul class="contact-list">
+                    <li>irukabando [at] gmail.com</li>
+                    <li><a href="https://x.com/sendaiperson" target="_blank">坂東入香 (X: @sendaiperson)</a></li>
+                    <li><a href="https://github.com/irukabando/irubabandoApp/issues" target="_blank">Issues - GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>(c) 坂東入香 / Iruka Bando</p>
+            <p>技術力とアイデア力で、夢をカタチに！</p>
+        </div>
+    </footer>
+
+</body>
+</html>
