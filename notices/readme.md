@@ -8,7 +8,7 @@
         
         <div class="notice-record">
             
-            <span class="data-field" data-type="id">1001</span>
+            <span class="data-field" data-type="id">[id]</span>
             
             <span class="data-field" data-type="title">【テスト】イベントを実施します</span>
             
@@ -16,12 +16,13 @@
             
             <span class="data-field" data-type="published_at">2025-12-14</span>
             
-            <span class="data-field" data-type="url">https://irukabando.github.io/irubabandoApp/notices/xxxxx.html</span>
+            <span class="data-field" data-type="url">https://irukabando.github.io/irubabandoApp/notices/[id]_notice.html</span>
             
             <span class="data-field" data-type="is_critical">false</span>
             
         </div>
 
-* id は連番
+* id は4桁の連番
 * url は本ディレクトリに html を作るなどして指定
+* url は，[id]_notice.html を基本とする
 * お知らせは1つ残す（Parsing Error が出るため）
