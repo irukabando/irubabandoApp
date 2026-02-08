@@ -16,7 +16,7 @@
             
             <span class="data-field" data-type="published_at">2025-12-14</span>
             
-            <span class="data-field" data-type="url">https://irukabando.github.io/irubabandoApp/</span>
+            <span class="data-field" data-type="url">https://irukabando.github.io/irubabandoApp/notices/xxxxx.html</span>
             
             <span class="data-field" data-type="is_critical">false</span>
             
