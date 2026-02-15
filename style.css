@@ -1,0 +1,225 @@
+/* デザイン設定を保持 */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #333;
+    scroll-behavior: smooth; /* スムーズスクロール追加 */
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 3rem 1rem 1rem 1rem; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #007bff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    border-left: 5px solid #007bff;
+}
+
+dl dt {
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e9ecef;
+    border-radius: 4px 4px 0 0;
+    border-left: 5px solid #28a745;
+}
+
+dl dd {
+    padding: 1rem;
+    background-color: white;
+    margin-left: 0;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-list li {
+    background: none;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    border-left: none;
+}
+
+.back-to-top {
+    display: block;
+    text-align: right;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* 目次スタイル */
+#table-of-contents {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem; 
+    background-color: white;
+    border-top: 1px solid #eee;
+}
+
+#table-of-contents h2 {
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+    padding-left: 0; 
+}
+
+#table-of-contents ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#table-of-contents li {
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    background: none;
+    padding: 0;
+    border-left: none;
+}
+
+/* プライバシーポリシーのテーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 12px 8px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #adb5bd;
+    font-size: 0.9rem;
+}
+
+/* 目次内のページ外リンクエリア */
+.toc-external-container {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dashed #ccc;
+}
+
+.toc-external-label {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: bold;
+}
+
+/* ページ外リンク専用のリストスタイル */
+.toc-external-list {
+    display: block;
+    padding-left: 0;
+    list-style: none;
+}
+
+.toc-external-list li {
+    display: inline-block;
+    background: none; /* 既存の li スタイルを打ち消す場合 */
+    padding: 0;
+    border-left: none;
+}
+
+.toc-external-list li a {
+    font-weight: bold;
+}
