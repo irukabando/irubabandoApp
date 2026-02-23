@@ -8,21 +8,25 @@
         
         <div class="notice-record">
             
-            <span class="data-field" data-type="id">[id]</span>
+            <span class="data-field" data-type="id">【xxxx】</span>
             
-            <span class="data-field" data-type="title">【テスト】イベントを実施します</span>
+            <span class="data-field" data-type="title">【タイトル】</span>
             
-            <span class="data-field" data-type="content">【テスト】ここでオフ会を実施します。ご希望の方は、本お知らせをクリックし、予約してください。</span>
+            <span class="data-field" data-type="content">【内容】</span>
             
-            <span class="data-field" data-type="published_at">2025-12-14</span>
+            <span class="data-field" data-type="published_at">【yyyy-mm-dd】</span>
             
-            <span class="data-field" data-type="url">https://irukabando.github.io/irubabandoApp/notices/[id]_notice.html</span>
+            <span class="data-field" data-type="url">【https://irukabando.github.io/irubabandoApp/notices/[xxxx]_notice.html】</span>
             
             <span class="data-field" data-type="is_critical">false</span>
             
         </div>
 
 * id は4桁の連番
-* url は本ディレクトリに html を作るなどして指定
+* title, content はお知らせの内容に合わせて適宜書き換え
+* published_at はお知らせの公開日
+* url はお知らせの詳細ページへのリンク
+* 詳細ページは，本ディレクトリに html を事前に作成しておく
 * url は，[id]_notice.html を基本とする
+* is_critical は未使用だが，ひとまず false 固定
 * お知らせは1つ残す（Parsing Error が出るため）
