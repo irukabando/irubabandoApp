@@ -6,7 +6,7 @@
 ## 更新方法
 以下を notices.html に追加
 
-```
+```html
         <div class="notice-record">
             
             <span class="data-field" data-type="id">【xxxx】</span>
