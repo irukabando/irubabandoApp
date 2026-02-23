@@ -31,18 +31,5 @@
 * is_critical は未使用だが，ひとまず false 固定
 * お知らせは1つ残す（Parsing Error が出るため）
 
-        <div class="notice-record">
-            
-            <span class="data-field" data-type="id">【xxxx】</span>
-            
-            <span class="data-field" data-type="title">【タイトル】</span>
-            
-            <span class="data-field" data-type="content">【内容】</span>
-            
-            <span class="data-field" data-type="published_at">【yyyy-mm-dd】</span>
-            
-            <span class="data-field" data-type="url">【https://irukabando.github.io/irubabandoApp/notices/[xxxx]_notice.html】</span>
-            
-            <span class="data-field" data-type="is_critical">false</span>
-            
-        </div>
+```
+aaaa
