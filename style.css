@@ -223,3 +223,24 @@ footer {
 .toc-external-list li a {
     font-weight: bold;
 }
+
+summary {
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+summary:hover {
+    background-color: #e2e6ea;
+}
+
+/* 開いた後はボタンを消す、または文言を変える場合はJSが必要ですが、
+   CSSだけでも「開いた後に少し余白を作る」などの調整が可能です */
+details[open] summary {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
