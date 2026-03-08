@@ -328,7 +328,7 @@
     "url": "https://shimoda-aquarium.com/",
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
-    "noticeItemDelimiter": "</li>>|</dl>",
+    "noticeItemDelimiter": "</li>|</dl>",
     "titleRegex": "(?:data-transition=\"esg-slidedownout\">|<span class='newmark'>NEW!</span>)(.*?)(?:</div>|</dd>)",
     "urlRegex": "href=\"(.*?)\"",
     "summaryRegex": "eg-top-skin-element-5\">(.*?)</div>",
