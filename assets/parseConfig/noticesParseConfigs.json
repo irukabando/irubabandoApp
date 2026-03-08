@@ -1,0 +1,14 @@
+[
+  {
+    "aquaName": "開発者から",
+    "url": "https://irukabando.github.io/irubabandoApp/notices/notices.html",
+    "noticeBlockStart": "<div id=\"notices-general\">",
+    "noticeBlockEnd": "<div class=\"end-of-notices\">",
+    "noticeItemDelimiter": "</div>",
+    "titleRegex": "<span class=\"data-field\" data-type=\"title\">(.*?)</span>",
+    "urlRegex": "<span class=\"data-field\" data-type=\"url\">(.*?)</span>",
+    "summaryRegex": "<span class=\"data-field\" data-type=\"content\">(.*?)</span>",
+    "uniqueStrRegex": "<span class=\"data-field\" data-type=\"id\">(.*?)</span>",
+    "publishedDateRegex": "<span class=\"data-field\" data-type=\"published_at\">(.*?)</span>"
+  }
+]
