@@ -2,6 +2,8 @@
   {
     "aquaName": "名古屋港水族館",
     "url": "https://nagoyaaqua.jp/news/",
+    "latitude": 35.0906,
+    "longitude": 136.8781,
     "noticeBlockStart": "<div class=\"article-content\">",
     "noticeBlockEnd": "<div class=\"pagination\">",
     "noticeItemDelimiter": "<li>",
@@ -26,6 +28,8 @@
   {
     "aquaName": "新江ノ島水族館",
     "url": "https://www.enosui.com/news.php",
+    "latitude": 35.0018,
+    "longitude": 138.3797,
     "noticeBlockStart": "<div class=\"contentsbody\" id=\"contentsbody\">",
     "noticeBlockEnd": "<section class=\"section\" id=\"section_sns\">",
     "noticeItemDelimiter": "</a>",
