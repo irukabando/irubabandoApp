@@ -28,8 +28,8 @@
   {
     "aquaName": "新江ノ島水族館",
     "url": "https://www.enosui.com/news.php",
-    "latitude": 35.308889,
-    "longitude": 139.481667,
+    "latitude": 35.31001352783243,
+    "longitude": 139.47940653935316,
     "noticeBlockStart": "<div class=\"contentsbody\" id=\"contentsbody\">",
     "noticeBlockEnd": "<section class=\"section\" id=\"section_sns\">",
     "noticeItemDelimiter": "</a>",
@@ -164,8 +164,6 @@
   {
     "aquaName": "仙台うみの杜水族館",
     "url": "https://www.uminomori.jp/api/cache/v1/infoList.jsp?site=se",
-    "latitude": 38.271083,
-    "longitude": 140.980667,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "isPdf",
@@ -178,8 +176,8 @@
   {
     "aquaName": "横浜八景島シーパラダイス",
     "url": "https://www.seaparadise.co.jp/",
-    "latitude": 35.335705,
-    "longitude": 139.644633,
+    "latitude": 35.336587355335006,
+    "longitude": 139.6456748971897,
     "noticeBlockStart": "<template #default=\"slotProps\">",
     "noticeBlockEnd": "<template #more=\"moreProps\">",
     "noticeItemDelimiter": "</a>",
@@ -192,8 +190,6 @@
   {
     "aquaName": "横浜八景島シーパラダイス",
     "url": "https://www.seaparadise.co.jp/api/cache/v1/infoList.jsp?site=ha",
-    "latitude": 35.335705,
-    "longitude": 139.644633,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "isPdf",
@@ -290,8 +286,8 @@
   {
     "aquaName": "うみがたり",
     "url": "https://www.umigatari.jp/joetsu/",
-    "latitude": 37.1804,
-    "longitude": 138.2307,
+    "latitude": 37.17351283043066,
+    "longitude": 138.2330191996478,
     "noticeBlockStart": "<template #default=\"slotProps\">",
     "noticeBlockEnd": "<template #more=\"moreProps\">",
     "noticeItemDelimiter": "</a>",
@@ -372,8 +368,8 @@
   {
     "aquaName": "下田海中水族館",
     "url": "https://shimoda-aquarium.com/",
-    "latitude": 34.6675,
-    "longitude": 138.9501,
+    "latitude": 34.66554286689938,
+    "longitude": 138.94650989647747,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "</li>|</dl>",
@@ -400,8 +396,8 @@
   {
     "aquaName": "あわしまマリンパーク",
     "url": "https://www.marinepark.jp/",
-    "latitude": 35.0347,
-    "longitude": 138.8927,
+    "latitude": 35.03357885180049,
+    "longitude": 138.8898960921659,
     "noticeBlockStart": "<div class=\"info-box mt-sm\">",
     "noticeBlockEnd": "<div class=\"top-tab\">",
     "noticeItemDelimiter": "</dl>",
@@ -484,8 +480,8 @@
   {
     "aquaName": "浅虫水族館",
     "url": "https://asamushi-aqua.com/news",
-    "latitude": 40.8938,
-    "longitude": 140.8142,
+    "latitude": 40.89750808110009,
+    "longitude": 140.86279925491723,
     "noticeBlockStart": "<section class=\"news\">",
     "noticeBlockEnd": "<section class=\"pager\">",
     "noticeItemDelimiter": "</li>",
@@ -498,8 +494,8 @@
   {
     "aquaName": "加茂水族館",
     "url": "https://kamo-kurage.jp/category/oshirase/",
-    "latitude": 38.7610,
-    "longitude": 139.7366,
+    "latitude": 38.761666750870646,
+    "longitude": 139.7246581577769,
     "noticeBlockStart": "<span property=\"name\" class=\"archive taxonomy category current-item\">",
     "noticeBlockEnd": "<div class=\"navigation\">",
     "noticeItemDelimiter": "<div class=\"blog_box\">",
@@ -512,8 +508,8 @@
   {
     "aquaName": "大洗水族館",
     "url": "https://www.aquaworld-oarai.com/",
-    "latitude": 36.3197,
-    "longitude": 140.5969,
+    "latitude": 36.33355024353379,
+    "longitude": 140.59402852589955,
     "noticeBlockStart": "<div class=\"top_pickup_wrapper\">",
     "noticeBlockEnd": "<div class=\"creature_bottom\">",
     "noticeItemDelimiter": "(?:</main>|</div></li>|</a></div>)",
@@ -580,8 +576,8 @@
   {
     "aquaName": "オホーツク・ガリンコタワー",
     "url": "https://o-tower.co.jp/news.html",
-    "latitude": 44.3315,
-    "longitude": 143.3768,
+    "latitude": 44.33394787409457,
+    "longitude": 143.37320450424892,
     "noticeBlockStart": "<div class=\"box1170-2\">",
     "noticeBlockEnd": "<div class=\"sl-news2\">",
     "noticeItemDelimiter": "<div id=\"archive",
@@ -622,8 +618,8 @@
   {
     "aquaName": "しまね海洋館アクアス",
     "url": "https://aquas.or.jp/",
-    "latitude": 34.9288,
-    "longitude": 132.0527,
+    "latitude": 34.959484151524734,
+    "longitude": 132.14463419701252,
     "noticeBlockStart": "<div class=\"card01\">",
     "noticeBlockEnd": "<div class=\"floormap_summary\">",
     "noticeItemDelimiter": "</a>",
@@ -636,8 +632,8 @@
   {
     "aquaName": "アクアマリンふくしま",
     "url": "https://www.aquamarine.or.jp/",
-    "latitude": 36.9406,
-    "longitude": 140.9026,
+    "latitude": 36.942777027707216,
+    "longitude": 140.9012936068735,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "</a>",
@@ -650,8 +646,8 @@
   {
     "aquaName": "おたる水族館",
     "url": "https://otaru-aq.jp/",
-    "latitude": 43.2389,
-    "longitude": 141.0094,
+    "latitude": 43.23720056875781,
+    "longitude": 141.0120403474266,
     "noticeBlockStart": "<div class=\"contents_outer_frontpage pickup\">",
     "noticeBlockEnd": "<div class=\"contents_outer_frontpage blog\">",
     "noticeItemDelimiter": "(<div class=\"pickup_1box\">|<dt>)",
@@ -660,5 +656,23 @@
     "summaryRegex": "(?:<p class=\"pickup_text\">|<dd>)(.*?)(?:</p>|</a>)",
     "uniqueStrRegex": "",
     "publishedDateRegex": "</span>(.*?)(?:</p>|</dt>)"
+  },
+  {
+    "aquaName": "海響館",
+    "url": "https://www.kaikyokan.com/",
+    "latitude": 33.95464557126115,
+    "longitude": 130.9423610969763
+  },
+  {
+    "aquaName": "日本平動物園",
+    "url": "https://www.nhdzoo.jp/",
+    "latitude": 34.98028267019397,
+    "longitude": 138.43931786817708
+  },
+  {
+    "aquaName": "浜松動物園",
+    "url": "https://hamazoo.net/",
+    "latitude": 34.765748335345144,
+    "longitude": 137.63254929382552
   }
 ]
