@@ -108,8 +108,6 @@
   {
     "aquaName": "しながわ水族館",
     "url": "https://www.aquarium.gr.jp/news",
-    "latitude": 35.588554,
-    "longitude": 139.737585,
     "noticeBlockStart": "<div id=\"news-list\">",
     "noticeBlockEnd": "<div id=\"pagetop\">",
     "noticeItemDelimiter": "</li>",
@@ -136,8 +134,6 @@
   {
     "aquaName": "マクセルアクアパーク品川",
     "url": "https://www.aqua-park.jp/api/cache/v1/infoList.jsp?site=sh",
-    "latitude": 35.627845,
-    "longitude": 139.735283,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "isPdf",
@@ -244,8 +240,8 @@
   {
     "aquaName": "京都水族館",
     "url": "https://www.kyoto-aquarium.com/",
-    "latitude": 34.9868,
-    "longitude": 135.7483,
+    "latitude": 34.98760908503274,
+    "longitude": 135.74770042925314,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "</li>|<li",
@@ -300,8 +296,6 @@
   {
     "aquaName": "うみがたり",
     "url": "https://www.umigatari.jp/api/cache/v1/infoList.jsp?site=jo",
-    "latitude": 37.1804,
-    "longitude": 138.2307,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "isPdf",
@@ -410,8 +404,8 @@
   {
     "aquaName": "アドベンチャーワールド",
     "url": "https://www.aws-s.com/",
-    "latitude": 33.6667,
-    "longitude": 135.3786,
+    "latitude": 33.66719050182014,
+    "longitude": 135.37332295879702,
     "noticeBlockStart": "<ul class=\"top-topics\">",
     "noticeBlockEnd": "<section class=\"top-section animal\">",
     "noticeItemDelimiter": "</li>",
@@ -424,8 +418,6 @@
   {
     "aquaName": "アドベンチャーワールド",
     "url": "https://www.aws-s.com/pressrelease/",
-    "latitude": 33.6667,
-    "longitude": 135.3786,
     "noticeBlockStart": "<ul class=\"topics-list\">",
     "noticeBlockEnd": "<footer class=\"footer\">",
     "noticeItemDelimiter": "</li>",
@@ -438,8 +430,6 @@
   {
     "aquaName": "アドベンチャーワールド",
     "url": "https://www.aws-s.com/topics/",
-    "latitude": 33.6667,
-    "longitude": 135.3786,
     "noticeBlockStart": "<ul class=\"topics-list\">",
     "noticeBlockEnd": "<footer class=\"footer\">",
     "noticeItemDelimiter": "</li>",
@@ -452,8 +442,8 @@
   {
     "aquaName": "南知多ビーチランド",
     "url": "https://beachland.jp/news/information/",
-    "latitude": 34.7865,
-    "longitude": 136.8785,
+    "latitude": 34.78713450695862,
+    "longitude": 136.85500138025552,
     "noticeBlockStart": "<div class=\"l-news__articles__currentCat is-inview\">",
     "noticeBlockEnd": "<dl id=\"l-news__sideBar__box--categories\" class=\"l-news__sideBar__box\">",
     "noticeItemDelimiter": "<dl class=\"l-news__articles__item is-inview\">",
@@ -466,8 +456,8 @@
   {
     "aquaName": "碧南海浜水族館",
     "url": "https://www.city.hekinan.lg.jp/aquarium/index.update.json",
-    "latitude": 34.8732,
-    "longitude": 136.9749,
+    "latitude": 34.88016781070684,
+    "longitude": 136.98195441285202,
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
     "noticeItemDelimiter": "\"tag\":",
@@ -548,8 +538,8 @@
   {
     "aquaName": "くじらの博物館",
     "url": "https://www.kujirakan.jp/news/",
-    "latitude": 33.5937,
-    "longitude": 135.9427,
+    "latitude": 33.60216940487329,
+    "longitude": 135.94577542343052,
     "noticeBlockStart": "<div class=\"p-block__inner p-block__inner--wide\">",
     "noticeBlockEnd": "<div class=\"l-aside__rows\">",
     "noticeItemDelimiter": " </article>",
@@ -562,8 +552,8 @@
   {
     "aquaName": "箱根園水族館",
     "url": "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/",
-    "latitude": 35.2117,
-    "longitude": 139.0116,
+    "latitude": 35.21214943387763,
+    "longitude": 139.0092943975657,
     "noticeBlockStart": "</header>",
     "noticeBlockEnd": "<div class=swiper-container>",
     "noticeItemDelimiter": "</div>",
