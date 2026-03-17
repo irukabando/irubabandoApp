@@ -93,7 +93,7 @@
   },
   {
     "aquaName": "しながわ水族館",
-    "url": "https://www.aquarium.gr.jp/",
+    "url": "https://www.aquarium.gr.jpp/",
     "latitude": 35.588554,
     "longitude": 139.737585,
     "noticeBlockStart": "<section id=\"pickup\">",
@@ -107,7 +107,7 @@
   },
   {
     "aquaName": "しながわ水族館",
-    "url": "https://www.aquarium.gr.jp/news",
+    "url": "https://www.aquarium.gr.jpp/news",
     "latitude": 35.588554,
     "longitude": 139.737585,
     "noticeBlockStart": "<div id=\"news-list\">",
