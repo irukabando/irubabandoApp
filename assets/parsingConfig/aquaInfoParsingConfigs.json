@@ -651,8 +651,30 @@
     "aquaName": "海響館",
     "url": "https://www.kaikyokan.com/",
     "latitude": 33.95464557126115,
-    "longitude": 130.9423610969763
+    "longitude": 130.9423610969763,
+    "noticeBlockStart": "<section id=\"sec_pickup\" class=\"scrollEffect\">",
+    "noticeBlockEnd": "<h3 class=\"mt100 sp-mt50 styleTtl3 font-lll sp-font-l scrollEffect\">",
+    "noticeItemDelimiter": "(li>|</a>)",
+    "titleRegex": "(?:<p>|<p class=\"txt\">)(.*?)</p>",
+    "urlRegex": "<a href=\"(.*?)\"",
+    "summaryRegex": "",
+    "uniqueStrRegex": "",
+    "publishedDateRegex": "(?:<p class=\"font-s gray mt1em\">|<span class=\"date\">|<p class=\"font-s gray mt1em\">)(.*?)(?:</p>|</span>)"
   },
+  {
+    "aquaName": "城崎マリンワールド",
+    "url": "https://marineworld.hiyoriyama.co.jp/new",
+    "latitude": 35.65582940399456,
+    "longitude": 134.82462072299447,
+    "noticeBlockStart": "<ul class=\"table-list cell-140 bt-sp40\">",
+    "noticeBlockEnd": "<div class=\"pagination\">",
+    "noticeItemDelimiter": "</li>",
+    "titleRegex": "</span>(.*?)</a>",
+    "urlRegex": "<a href=\"(.*?)\"",
+    "summaryRegex": "",
+    "uniqueStrRegex": "",
+    "publishedDateRegex": ""
+    },
   {
     "aquaName": "日本平動物園",
     "url": "https://www.nhdzoo.jp/",
