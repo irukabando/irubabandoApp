@@ -669,7 +669,7 @@
     "noticeBlockStart": "<ul class=\"table-list cell-140 bt-sp40\">",
     "noticeBlockEnd": "<div class=\"pagination\">",
     "noticeItemDelimiter": "</li>",
-    "titleRegex": "</span>(.*?)</a>",
+    "titleRegex": "<span class=\"icon-catenews\"></span>(.*?)</a>",
     "urlRegex": "<a href=\"(.*?)\"",
     "summaryRegex": "",
     "uniqueStrRegex": "",
