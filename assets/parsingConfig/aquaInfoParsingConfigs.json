@@ -80,8 +80,8 @@
   {
     "aquaName": "神戸須磨シーワールド",
     "url": "https://www.kobesuma-seaworld.jp/",
-    "latitude": 34.644167,
-    "longitude": 135.128611,
+    "latitude": 34.64388579259891,
+    "longitude": 135.12783862924618,
     "noticeBlockStart": "<section class=\"p-top-pickup\">",
     "noticeBlockEnd": "<section class=\"p-top-intro\">",
     "noticeItemDelimiter": "</a>",
