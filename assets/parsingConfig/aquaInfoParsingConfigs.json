@@ -686,5 +686,71 @@
     "url": "https://hamazoo.net/",
     "latitude": 34.76574,
     "longitude": 137.63254
+  },
+  {
+    "aquaName": "葛西臨海水族園",
+    "url": "https://www.tokyo-zoo.net/",
+    "latitude": 35.64002,
+    "longitude": 139.86220
+  },
+  {
+    "aquaName": "井の頭自然文化園",
+    "url": "https://www.tokyo-zoo.net/",
+    "latitude": 35.70103,
+    "longitude": 139.57093
+  },
+  {
+    "aquaName": "多摩動物公園",
+    "url": "https://www.tokyo-zoo.net/",
+    "latitude": 35.65061,
+    "longitude": 139.40137
+  },
+  {
+    "aquaName": "上野動物園",
+    "url": "https://www.tokyo-zoo.net/",
+    "latitude": 35.71682,
+    "longitude": 139.77169
+  },
+  {
+    "aquaName": "東山動植物園",
+    "url": "https://www.higashiyama.city.nagoya.jp/",
+    "latitude": 35.15328,
+    "longitude": 136.97119
+  },
+  {
+    "aquaName": "川崎水族館",
+    "url": "https://kawa-sui.com/",
+    "latitude": 35.52954,
+    "longitude": 139.69668
+  },
+  {
+    "aquaName": "男鹿水族館GAO",
+    "url": "https://www.gao-aqua.jp/",
+    "latitude": 39.94221,
+    "longitude": 141.70458
+  },
+  {
+    "aquaName": "東山動植物園",
+    "url": "https://www.higashiyama.city.nagoya.jp/",
+    "latitude": 35.15720,
+    "longitude": 136.976041
+  },
+  {
+    "aquaName": "伊勢シーバラダイス",
+    "url": "https://ise-seaparadise.com/",
+    "latitude": 34.50733,
+    "longitude": 136.79163
+  },
+  {
+    "aquaName": "イルカ島（鳥羽湾）",
+    "url": "https://shima-marineleisure.com/toba/island",
+    "latitude": 34.50465,
+    "longitude": 136.83542
+  },
+  {
+    "aquaName": "いおワールドかごしま水族館",
+    "url": "http://ioworld.jp/",
+    "latitude": 31.59598,
+    "longitude": 130.56456
   }
 ]
