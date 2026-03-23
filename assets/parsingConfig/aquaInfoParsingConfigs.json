@@ -752,5 +752,23 @@
     "url": "http://ioworld.jp/",
     "latitude": 31.59598,
     "longitude": 130.56456
+  },
+  {
+    "aquaName": "宮島水族館",
+    "url": "http://miyajima-aqua.jp/",
+    "latitude": 34.29555,
+    "longitude": 132.31579
+  },
+  {
+    "aquaName": "桂浜水族館",
+    "url": "http://katurahama-aq.jp/",
+    "latitude": 33.49711,
+    "longitude": 133.57366
+  },
+  {
+    "aquaName": "京都大学白浜水族館",
+    "url": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
+    "latitude": 33.69271,
+    "longitude": 135.33758
   }
 ]
