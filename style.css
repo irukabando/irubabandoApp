@@ -16,20 +16,21 @@ body {
 }
 
 header {
-    background-color: #007bff;
-    color: white;
-    padding: 3rem 1rem 1rem 1rem; 
+background-color: #ffffff;
+    color: #212529;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1.2rem 1rem 1rem 1rem; 
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 header p {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     opacity: 0.9;
 }
 
@@ -71,15 +72,28 @@ h4 {
 
 ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
+    /* リスト全体の左側に余白を作る */
+    padding-left: 0.5rem; 
 }
 
 ul li {
-    background: #e9ecef;
-    margin-bottom: 0.5rem;
-    padding: 0.75rem 1rem;
-    border-radius: 4px;
-    border-left: 5px solid #007bff;
+    position: relative;
+    /* ドットから文字までの距離 */
+    padding-left: 1.2rem; 
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    left: 0; 
+    top: 0.6em;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 50%;
 }
 
 dl dt {
