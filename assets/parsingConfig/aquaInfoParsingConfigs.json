@@ -770,5 +770,17 @@
     "url": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
     "latitude": 33.69271,
     "longitude": 135.33758
+  },
+  {
+    "aquaName": "つくみイルカ島",
+    "url": "https://www.tsukumi-irukajima.jp/",
+    "latitude": 33.07014,
+    "longitude": 131.95485
+  },
+  {
+    "aquaName": "日本ドルフィンセンター",
+    "url": "https://www.j-dc2.net/",
+    "latitude": 34.28793,
+    "longitude": 134.26784
   }
 ]
