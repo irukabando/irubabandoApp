@@ -38,27 +38,37 @@ section {
     padding: 2rem 0;
 }
 
+/* セクションタイトル */
 h2 {
     font-size: 1.75rem;
     border-bottom: 3px solid #007bff;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
     color: #007bff;
+    /* 修正ポイント：h2はセクションの起点なので少し上に余白を足すと読みやすいです */
+    margin-top: 3rem; 
 }
 
 h3 {
     font-size: 1.4rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem; /* h2との間隔を調整 */
+    margin-bottom: 1.2rem;
     border-left: 5px solid #007bff;
-    padding-left: 10px;
+    padding-left: 15px; /* 少し広げて視認性アップ */
+    color: #333; /* 文字色は少し落とすとh2が際立ちます */
 }
 
 h4 {
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
+    font-size: 1.15rem; /* 少しだけサイズを抑え、h3との差を明確に */
+    margin-top: 2rem;
     margin-bottom: 0.8rem;
     font-weight: bold;
+    color: #444;
+    /* 修正案：下線を追加して「見出し感」を強化 */
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 0.3rem;
+    display: inline-block; /* 下線を文字の長さに合わせる場合（お好みで） */
+    min-width: 30%; /* 短すぎるときに見栄えを良くする */
 }
 
 .card {
