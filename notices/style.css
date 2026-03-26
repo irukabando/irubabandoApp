@@ -68,7 +68,7 @@ h4 {
     border-bottom: 1px solid #aaa;
     padding-bottom: 0.3rem;
     display: inline-block; /* 下線を文字の長さに合わせる場合（お好みで） */
-    min-width: 30%; /* 短すぎるときに見栄えを良くする */
+    min-width: 50%; /* 短すぎるときに見栄えを良くする */
 }
 
 /* カードデザイン */
