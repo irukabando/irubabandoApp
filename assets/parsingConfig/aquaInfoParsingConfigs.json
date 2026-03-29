@@ -782,5 +782,17 @@
     "url": "https://www.j-dc2.net/",
     "latitude": 34.28793,
     "longitude": 134.26784
+  },
+  {
+    "aquaName": "新屋島水族館",
+    "url": "http://new-yashima-aq.com/newYAQ/home/home.html",
+    "latitude": 34.35836,
+    "longitude": 134.09979
+  },
+  {
+    "aquaName": "渋川マリン水族館",
+    "url": "https://www.city.tamano.lg.jp/site/kaihaku/",
+    "latitude": 34.45484,
+    "longitude": 134.90538
   }
 ]
