@@ -1,6 +1,9 @@
 [
   {
     "aquaName": "名古屋港水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://nagoyaaqua.jp/news/",
     "latitude": 35.09066,
     "longitude": 136.87826,
@@ -15,6 +18,9 @@
   },
   {
     "aquaName": "名古屋港水族館コラム",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://nagoyaaqua.jp/study/column/",
     "noticeBlockStart": "<div id=\"wrap\">",
     "noticeBlockEnd": "<div class=\"cmn_pagenavi\">",
@@ -27,6 +33,9 @@
   },
   {
     "aquaName": "新江ノ島水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.enosui.com/news.php",
     "latitude": 35.31001,
     "longitude": 139.47940,
@@ -41,6 +50,9 @@
   },
   {
     "aquaName": "新江ノ島水族館イベント",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.enosui.com/show_index.php",
     "noticeBlockStart": "<section class=\"section mt0\" id=\"section_event\">",
     "noticeBlockEnd": "<section class=\"section\" id=\"section_experience\">",
@@ -53,6 +65,9 @@
   },
   {
     "aquaName": "鴨川シーワールド",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.kamogawa-seaworld.jp/information/",
     "latitude": 35.11592,
     "longitude": 140.12034,
@@ -67,6 +82,9 @@
   },
   {
     "aquaName": "鴨川シーワールドイベント",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.kamogawa-seaworld.jp/event/event_info/",
     "noticeBlockStart": "<div class=\"event_list\">",
     "noticeBlockEnd": "<div class=\"pagenation cf\">",
@@ -79,6 +97,9 @@
   },
   {
     "aquaName": "神戸須磨シーワールド",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://www.kobesuma-seaworld.jp/",
     "latitude": 34.64388,
     "longitude": 135.12783,
@@ -93,6 +114,9 @@
   },
   {
     "aquaName": "しながわ水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.aquarium.gr.jp/",
     "latitude": 35.58855,
     "longitude": 139.73758,
@@ -107,6 +131,9 @@
   },
   {
     "aquaName": "しながわ水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.aquarium.gr.jp/news",
     "noticeBlockStart": "<div id=\"news-list\">",
     "noticeBlockEnd": "<div id=\"pagetop\">",
@@ -119,6 +146,9 @@
   },
   {
     "aquaName": "マクセルアクアパーク品川",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.aqua-park.jp/aqua/",
     "latitude": 35.62784,
     "longitude": 139.73528,
@@ -133,6 +163,9 @@
   },
   {
     "aquaName": "マクセルアクアパーク品川",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.aqua-park.jp/api/cache/v1/infoList.jsp?site=sh",
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
@@ -145,6 +178,9 @@
   },
   {
     "aquaName": "仙台うみの杜水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東北",
     "url": "https://www.uminomori.jp/umino/index.html",
     "latitude": 38.27108,
     "longitude": 140.98066,
@@ -159,6 +195,9 @@
   },
   {
     "aquaName": "仙台うみの杜水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東北",
     "url": "https://www.uminomori.jp/api/cache/v1/infoList.jsp?site=se",
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
@@ -171,6 +210,9 @@
   },
   {
     "aquaName": "横浜八景島シーパラダイス",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.seaparadise.co.jp/",
     "latitude": 35.33658,
     "longitude": 139.64567,
@@ -185,6 +227,9 @@
   },
   {
     "aquaName": "横浜八景島シーパラダイス",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.seaparadise.co.jp/api/cache/v1/infoList.jsp?site=ha",
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
@@ -197,6 +242,9 @@
   },
   {
     "aquaName": "鳥羽水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://aquarium.co.jp/topics/",
     "latitude": 34.48123,
     "longitude": 136.84603,
@@ -211,6 +259,9 @@
   },
   {
     "aquaName": "うみたまご",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "九州",
     "url": "https://www.umitamago.jp/info/",
     "latitude": 33.25875,
     "longitude": 131.53564,
@@ -225,6 +276,9 @@
   },
   {
     "aquaName": "マリンワールド海の中道",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "九州",
     "url": "https://marine-world.jp/",
     "latitude": 33.66083,
     "longitude": 130.36333,
@@ -239,6 +293,9 @@
   },
   {
     "aquaName": "京都水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://www.kyoto-aquarium.com/",
     "latitude": 34.98760,
     "longitude": 135.74770,
@@ -253,6 +310,9 @@
   },
   {
     "aquaName": "四国水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "四国",
     "url": "https://shikoku-aquarium.jp/",
     "latitude": 34.31248,
     "longitude": 133.80798,
@@ -267,6 +327,9 @@
   },
   {
     "aquaName": "マリンピア日本海",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.marinepia.or.jp/",
     "latitude": 37.92384,
     "longitude": 139.02825,
@@ -281,6 +344,9 @@
   },
   {
     "aquaName": "うみがたり",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.umigatari.jp/joetsu/",
     "latitude": 37.17351,
     "longitude": 138.23301,
@@ -295,6 +361,9 @@
   },
   {
     "aquaName": "うみがたり",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.umigatari.jp/api/cache/v1/infoList.jsp?site=jo",
     "noticeBlockStart": "",
     "noticeBlockEnd": "",
@@ -307,6 +376,9 @@
   },
   {
     "aquaName": "のとじま水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.notoaqua.jp/news/",
     "latitude": 37.14944,
     "longitude": 136.98347,
@@ -321,6 +393,9 @@
   },
   {
     "aquaName": "のとじま水族館日記",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.notoaqua.jp/diary/",
     "noticeBlockStart": "<div id=\"CNT-area\">",
     "noticeBlockEnd": "<div class=\"pagination\">",
@@ -333,6 +408,9 @@
   },
   {
     "aquaName": "海遊館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://www.kaiyukan.com/about/news/",
     "latitude": 34.6545,
     "longitude": 135.4290,
@@ -347,6 +425,9 @@
   },
   {
     "aquaName": "沖縄美ら海水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "九州",
     "url": "https://churaumi.okinawa",
     "latitude": 26.69448,
     "longitude": 127.87813,
@@ -361,6 +442,9 @@
   },
   {
     "aquaName": "下田海中水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://shimoda-aquarium.com/",
     "latitude": 34.66554,
     "longitude": 138.94650,
@@ -375,6 +459,9 @@
   },
   {
     "aquaName": "伊豆・三津シーパラダイス",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.mitosea.com/",
     "latitude": 35.01953,
     "longitude": 138.89598,
@@ -389,6 +476,9 @@
   },
   {
     "aquaName": "あわしまマリンパーク",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.marinepark.jp/",
     "latitude": 35.03357,
     "longitude": 138.88989,
@@ -403,6 +493,9 @@
   },
   {
     "aquaName": "アドベンチャーワールド",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "近畿",
     "url": "https://www.aws-s.com/",
     "latitude": 33.66719,
     "longitude": 135.37332,
@@ -417,6 +510,9 @@
   },
   {
     "aquaName": "アドベンチャーワールド",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "近畿",
     "url": "https://www.aws-s.com/pressrelease/",
     "noticeBlockStart": "<ul class=\"topics-list\">",
     "noticeBlockEnd": "<footer class=\"footer\">",
@@ -429,6 +525,9 @@
   },
   {
     "aquaName": "アドベンチャーワールド",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "近畿",
     "url": "https://www.aws-s.com/topics/",
     "noticeBlockStart": "<ul class=\"topics-list\">",
     "noticeBlockEnd": "<footer class=\"footer\">",
@@ -441,6 +540,9 @@
   },
   {
     "aquaName": "南知多ビーチランド",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://beachland.jp/news/information/",
     "latitude": 34.78713,
     "longitude": 136.85500,
@@ -455,6 +557,9 @@
   },
   {
     "aquaName": "碧南海浜水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東海",
     "url": "https://www.city.hekinan.lg.jp/aquarium/index.update.json",
     "latitude": 34.88016,
     "longitude": 136.98195,
@@ -469,6 +574,9 @@
   },
   {
     "aquaName": "浅虫水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東北",
     "url": "https://asamushi-aqua.com/news",
     "latitude": 40.89750,
     "longitude": 140.86279,
@@ -483,6 +591,9 @@
   },
   {
     "aquaName": "加茂水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東北",
     "url": "https://kamo-kurage.jp/category/oshirase/",
     "latitude": 38.76166,
     "longitude": 139.72465,
@@ -497,6 +608,9 @@
   },
   {
     "aquaName": "大洗水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.aquaworld-oarai.com/",
     "latitude": 36.33355,
     "longitude": 140.59402,
@@ -511,6 +625,9 @@
   },
   {
     "aquaName": "開発者から",
+    "officialUrl": "",
+    "type": "その他",
+    "region": "その他",
     "url": "https://irukabando.github.io/irubabandoApp/notices/notices.html",
     "noticeBlockStart": "<div id=\"notices-general\">",
     "noticeBlockEnd": "<div class=\"end-of-notices\">",
@@ -523,6 +640,9 @@
   },
   {
     "aquaName": "ホエールタウンおしか",
+    "officialUrl": "",
+    "type": "博物館",
+    "region": "東北",
     "url": "https://oshika.miyagi.jp/",
     "latitude": 38.2979,
     "longitude": 141.5039,
@@ -537,6 +657,9 @@
   },
   {
     "aquaName": "くじらの博物館",
+    "officialUrl": "",
+    "type": "博物館",
+    "region": "近畿",
     "url": "https://www.kujirakan.jp/news/",
     "latitude": 33.60216,
     "longitude": 135.94577,
@@ -551,6 +674,9 @@
   },
   {
     "aquaName": "箱根園水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/",
     "latitude": 35.212149,
     "longitude": 139.009294,
@@ -565,6 +691,9 @@
   },
   {
     "aquaName": "オホーツク・ガリンコタワー",
+    "officialUrl": "",
+    "type": "博物館",
+    "region": "北海道",
     "url": "https://o-tower.co.jp/news.html",
     "latitude": 44.33394,
     "longitude": 143.37320,
@@ -579,6 +708,9 @@
   },
   {
     "aquaName": "サンシャイン水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://sunshinecity.jp/aquarium/",
     "latitude": 35.7291,
     "longitude": 139.7196,
@@ -593,6 +725,9 @@
   },
   {
     "aquaName": "すみだ水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.sumida-aquarium.com/index.html",
     "latitude": 35.7099,
     "longitude": 139.8105,
@@ -607,6 +742,9 @@
   },
   {
     "aquaName": "しまね海洋館アクアス",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "中国",
     "url": "https://aquas.or.jp/",
     "latitude": 34.959484,
     "longitude": 132.144634,
@@ -621,6 +759,9 @@
   },
   {
     "aquaName": "アクアマリンふくしま",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東北",
     "url": "https://www.aquamarine.or.jp/",
     "latitude": 36.94277,
     "longitude": 140.90129,
@@ -635,6 +776,9 @@
   },
   {
     "aquaName": "おたる水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "北海道",
     "url": "https://otaru-aq.jp/",
     "latitude": 43.23720,
     "longitude": 141.01204,
@@ -649,6 +793,9 @@
   },
   {
     "aquaName": "海響館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "中国",
     "url": "https://www.kaikyokan.com/",
     "latitude": 33.95464,
     "longitude": 130.94236,
@@ -663,6 +810,9 @@
   },
   {
     "aquaName": "城崎マリンワールド",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://marineworld.hiyoriyama.co.jp/new",
     "latitude": 35.65582,
     "longitude": 134.82462,
@@ -674,123 +824,183 @@
     "summaryRegex": "",
     "uniqueStrRegex": "",
     "publishedDateRegex": ""
-    },
+  },
   {
     "aquaName": "日本平動物園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "東海",
     "url": "https://www.nhdzoo.jp/",
     "latitude": 34.98028,
     "longitude": 138.43931
   },
   {
     "aquaName": "浜松動物園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "東海",
     "url": "https://hamazoo.net/",
     "latitude": 34.76574,
     "longitude": 137.63254
   },
   {
     "aquaName": "葛西臨海水族園",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
     "latitude": 35.64002,
     "longitude": 139.86220
   },
   {
     "aquaName": "井の頭自然文化園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
     "latitude": 35.70103,
     "longitude": 139.57093
   },
   {
     "aquaName": "多摩動物公園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
     "latitude": 35.65061,
     "longitude": 139.40137
   },
   {
     "aquaName": "上野動物園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
     "latitude": 35.71682,
     "longitude": 139.77169
   },
   {
     "aquaName": "東山動植物園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "東海",
     "url": "https://www.higashiyama.city.nagoya.jp/",
     "latitude": 35.15328,
     "longitude": 136.97119
   },
   {
     "aquaName": "川崎水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "関東",
     "url": "https://kawa-sui.com/",
     "latitude": 35.52954,
     "longitude": 139.69668
   },
   {
     "aquaName": "男鹿水族館GAO",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "東北",
     "url": "https://www.gao-aqua.jp/",
     "latitude": 39.94225,
     "longitude": 139.70455
   },
   {
     "aquaName": "東山動植物園",
+    "officialUrl": "",
+    "type": "動物園",
+    "region": "東海",
     "url": "https://www.higashiyama.city.nagoya.jp/",
     "latitude": 35.15720,
     "longitude": 136.976041
   },
   {
-    "aquaName": "伊勢シーバラダイス",
+    "aquaName": "伊勢シーパラダイス",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://ise-seaparadise.com/",
     "latitude": 34.50733,
     "longitude": 136.79163
   },
   {
     "aquaName": "イルカ島（鳥羽湾）",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://shima-marineleisure.com/toba/island",
     "latitude": 34.50465,
     "longitude": 136.83542
   },
   {
     "aquaName": "いおワールドかごしま水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "九州",
     "url": "http://ioworld.jp/",
     "latitude": 31.59598,
     "longitude": 130.56456
   },
   {
     "aquaName": "宮島水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "中国",
     "url": "http://miyajima-aqua.jp/",
     "latitude": 34.29555,
     "longitude": 132.31579
   },
   {
     "aquaName": "桂浜水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "四国",
     "url": "http://katurahama-aq.jp/",
     "latitude": 33.49711,
     "longitude": 133.57366
   },
   {
     "aquaName": "京都大学白浜水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "近畿",
     "url": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
     "latitude": 33.69271,
     "longitude": 135.33758
   },
   {
     "aquaName": "つくみイルカ島",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "九州",
     "url": "https://www.tsukumi-irukajima.jp/",
     "latitude": 33.07014,
     "longitude": 131.95485
   },
   {
     "aquaName": "日本ドルフィンセンター",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "四国",
     "url": "https://www.j-dc2.net/",
     "latitude": 34.28793,
     "longitude": 134.26784
   },
   {
     "aquaName": "新屋島水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "四国",
     "url": "http://new-yashima-aq.com/newYAQ/home/home.html",
     "latitude": 34.35836,
     "longitude": 134.09979
   },
   {
     "aquaName": "渋川マリン水族館",
+    "officialUrl": "",
+    "type": "水族館",
+    "region": "中国",
     "url": "https://www.city.tamano.lg.jp/site/kaihaku/",
     "latitude": 34.45484,
     "longitude": 134.90538
