@@ -862,7 +862,7 @@
   },
   {
     "aquaName": "葛西臨海水族園",
-    "officialUrl": "",
+    "officialUrl": "https://www.tokyo-zoo.net/kasai/",
     "type": "水族館",
     "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
@@ -871,7 +871,7 @@
   },
   {
     "aquaName": "井の頭自然文化園",
-    "officialUrl": "",
+    "officialUrl": "https://www.tokyo-zoo.net/inokashira/",
     "type": "動物園",
     "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
@@ -880,7 +880,7 @@
   },
   {
     "aquaName": "多摩動物公園",
-    "officialUrl": "",
+    "officialUrl": "https://www.tokyo-zoo.net/tama/",
     "type": "動物園",
     "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
@@ -889,7 +889,7 @@
   },
   {
     "aquaName": "上野動物園",
-    "officialUrl": "",
+    "officialUrl": "https://www.tokyo-zoo.net/ueno/",
     "type": "動物園",
     "region": "関東",
     "url": "https://www.tokyo-zoo.net/",
@@ -898,7 +898,7 @@
   },
   {
     "aquaName": "東山動植物園",
-    "officialUrl": "",
+    "officialUrl": "https://www.higashiyama.city.nagoya.jp/",
     "type": "動物園",
     "region": "中部",
     "url": "https://www.higashiyama.city.nagoya.jp/",
@@ -907,7 +907,7 @@
   },
   {
     "aquaName": "川崎水族館",
-    "officialUrl": "",
+    "officialUrl": "https://kawa-sui.com/",
     "type": "水族館",
     "region": "関東",
     "url": "https://kawa-sui.com/",
@@ -916,7 +916,7 @@
   },
   {
     "aquaName": "男鹿水族館GAO",
-    "officialUrl": "",
+    "officialUrl": "https://www.gao-aqua.jp/",
     "type": "水族館",
     "region": "東北",
     "url": "https://www.gao-aqua.jp/",
@@ -924,17 +924,8 @@
     "longitude": 139.70455
   },
   {
-    "aquaName": "東山動植物園",
-    "officialUrl": "",
-    "type": "動物園",
-    "region": "中部",
-    "url": "https://www.higashiyama.city.nagoya.jp/",
-    "latitude": 35.15720,
-    "longitude": 136.976041
-  },
-  {
     "aquaName": "伊勢シーパラダイス",
-    "officialUrl": "",
+    "officialUrl": "https://ise-seaparadise.com/",
     "type": "水族館",
     "region": "近畿",
     "url": "https://ise-seaparadise.com/",
@@ -943,7 +934,7 @@
   },
   {
     "aquaName": "イルカ島（鳥羽湾）",
-    "officialUrl": "",
+    "officialUrl": "https://shima-marineleisure.com/toba/island",
     "type": "水族館",
     "region": "近畿",
     "url": "https://shima-marineleisure.com/toba/island",
@@ -952,7 +943,7 @@
   },
   {
     "aquaName": "いおワールドかごしま水族館",
-    "officialUrl": "",
+    "officialUrl": "http://ioworld.jp/",
     "type": "水族館",
     "region": "九州",
     "url": "http://ioworld.jp/",
@@ -961,7 +952,7 @@
   },
   {
     "aquaName": "宮島水族館",
-    "officialUrl": "",
+    "officialUrl": "http://miyajima-aqua.jp/",
     "type": "水族館",
     "region": "中国",
     "url": "http://miyajima-aqua.jp/",
@@ -970,7 +961,7 @@
   },
   {
     "aquaName": "桂浜水族館",
-    "officialUrl": "",
+    "officialUrl": "http://katurahama-aq.jp/",
     "type": "水族館",
     "region": "四国",
     "url": "http://katurahama-aq.jp/",
@@ -979,7 +970,7 @@
   },
   {
     "aquaName": "京都大学白浜水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
     "type": "水族館",
     "region": "近畿",
     "url": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
@@ -988,7 +979,7 @@
   },
   {
     "aquaName": "つくみイルカ島",
-    "officialUrl": "",
+    "officialUrl": "https://www.tsukumi-irukajima.jp/",
     "type": "水族館",
     "region": "九州",
     "url": "https://www.tsukumi-irukajima.jp/",
@@ -997,7 +988,7 @@
   },
   {
     "aquaName": "日本ドルフィンセンター",
-    "officialUrl": "",
+    "officialUrl": "https://www.j-dc2.net/",
     "type": "水族館",
     "region": "四国",
     "url": "https://www.j-dc2.net/",
@@ -1006,16 +997,16 @@
   },
   {
     "aquaName": "新屋島水族館",
-    "officialUrl": "",
+    "officialUrl": "https://r.goope.jp/new-yashima-aq/",
     "type": "水族館",
     "region": "四国",
-    "url": "http://new-yashima-aq.com/newYAQ/home/home.html",
+    "url": "https://r.goope.jp/new-yashima-aq/",
     "latitude": 34.35836,
     "longitude": 134.09979
   },
   {
     "aquaName": "渋川マリン水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.city.tamano.lg.jp/site/kaihaku/",
     "type": "水族館",
     "region": "中国",
     "url": "https://www.city.tamano.lg.jp/site/kaihaku/",
