@@ -227,6 +227,13 @@ a:hover {
     border-left: none;
 }
 
+.contact-list li {
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
 .back-to-top {
     display: block;
     text-align: right;
