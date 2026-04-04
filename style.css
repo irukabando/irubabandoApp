@@ -80,30 +80,74 @@ h4 {
     border-top: 3px solid #007bff;
 }
 
-ul {
+/* --- 1. 本文中のリスト装飾（カード内のリストに限定） --- */
+.card ul {
     list-style: none;
     padding: 0;
-    /* リスト全体の左側に余白を作る */
-    padding-left: 0.5rem; 
+    padding-left: 0.5rem;
 }
 
-ul li {
+.card ul li {
     position: relative;
-    /* ドットから文字までの距離 */
-    padding-left: 1.2rem; 
+    padding-left: 1.2rem;
     margin-bottom: 8px;
     line-height: 1.6;
 }
 
-ul li::before {
+.card ul li::before {
     content: "";
     position: absolute;
-    left: 0; 
+    left: 0;
     top: 0.6em;
     width: 6px;
     height: 6px;
     background-color: #ccc;
     border-radius: 50%;
+}
+
+/* --- 2. お問い合わせセクション用の指定（ID指定で確実に） --- */
+#contact ul {
+    list-style: none;
+    padding-left: 0.5rem;
+}
+
+#contact ul li {
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 8px;
+}
+
+#contact ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+/* --- 3. 目次（干渉させないためにリセットを強調） --- */
+#table-of-contents ul,
+.toc-external-list {
+    list-style: none !important; /* 標準の点を消す */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#table-of-contents li,
+.toc-external-list li {
+    position: static; /* 疑似要素の基準を解除 */
+    padding-left: 0;  /* 余白をリセット */
+    margin-right: 1rem;
+    background: none;
+}
+
+#table-of-contents li::before,
+.toc-external-list li::before {
+    content: none !important; /* 疑似要素の点を強制的に消す */
 }
 
 dl dt {
