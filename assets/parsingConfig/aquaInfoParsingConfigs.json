@@ -647,7 +647,7 @@
     "region": "その他",
     "url": "https://irukabando.github.io/irubabandoApp/notices/notices.html",
     "noticeBlockStart": "<div id=\"notices-general\">",
-    "noticeBlockEnd": "<div class=\"notice-record\">",
+    "noticeBlockEnd": "<div id=\"notices-important\">",
     "noticeItemDelimiter": "</div>",
     "titleRegex": "<span class=\"data-field\" data-type=\"title\">(.*?)</span>",
     "urlRegex": "<span class=\"data-field\" data-type=\"url\">(.*?)</span>",
