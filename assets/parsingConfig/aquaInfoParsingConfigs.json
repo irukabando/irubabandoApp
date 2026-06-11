@@ -959,7 +959,7 @@
     "noticeBlockStart": "<section class=\"section section-news\">",
     "noticeBlockEnd": "<aside class=\"section section-sns\">",
     "noticeItemDelimiter": "<section class=\"section section-news\">|<div class=\"col\">|</li>",
-    "titleRegex": "(?:</span></div>|html\">|<div class=\"panel--title\">|<div class=\"panel2--title\">)(.*?)(?:</p>|</a>|</div)",
+    "titleRegex": "(?:<div class=\"panel--title\">|<div class=\"panel2--title\">|</span></div>|html\">)(.*?)(?:</p>|</a>|</div)",
     "urlRegex": "href=\"(.*?)\"",
     "summaryRegex": "(?:<p class=\"panel--text\">|<div class=\"panel2--text\">)(.*?)(?:</p>|</div>)",
     "uniqueStrRegex": "",
