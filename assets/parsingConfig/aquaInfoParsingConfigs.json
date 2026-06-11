@@ -856,8 +856,25 @@
     "titleRegex": "<p class=\"newsTitle\">(.*?)</p>",
     "urlRegex": "<a href=\"(.*?)\"",
     "summaryRegex": "",
-    "uniqueStrRegex": "<article class=\"(.*?)\"> ",
+    "uniqueStrRegex": "<article class=\"(.*?)\">",
     "publishedDateRegex": ""
+  },
+  {
+    "aquaName": "九十九島水族館海きらら",
+    "officialUrl": "https://www.umikirara.jp/",
+    "type": "水族館",
+    "region": "九州",
+    "url": "https://www.umikirara.jp/",
+    "latitude": 33.16144,
+    "longitude": 129.67910,
+    "noticeBlockStart": "",
+    "noticeBlockEnd": "",
+    "noticeItemDelimiter": "</div></div></a></div>|<div class=\"event_home_inner\">|<li class=\"col\">|</li>",
+    "titleRegex": "(?:<p class=\"mb0 mt0 xl-top-05\">|<span class=\"news_title\">)(.*?)(?:</p>|</span>)",
+    "urlRegex": "<a href=\"(.*?)\"",
+    "summaryRegex": "",
+    "uniqueStrRegex": "",
+    "publishedDateRegex": "<span class=\"news_date\">(.*?)</span>"
   },
   {
     "aquaName": "日本平動物園",
