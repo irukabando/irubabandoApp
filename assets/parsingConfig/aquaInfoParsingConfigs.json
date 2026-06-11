@@ -734,9 +734,9 @@
     "noticeBlockStart": "<div class=\"str-contents bg-home-01\">",
     "noticeBlockEnd": "<div class=\"str-contents bg-home-07\">",
     "noticeItemDelimiter": "<li>|</li>|/strong>|<div class=\"lay-notice\">",
-    "titleRegex": "(?:<strong>|<span class=\"text\">|</time>〜</span>|<p class=\"link\">)(.*?)(?:</div>|<)",
+    "titleRegex": "(?:<strong>|<span class=\"text\">|<p class=\"link\">)(.*?)(?:</div>|<)",
     "urlRegex": "href=\"(.*?)\"",
-    "summaryRegex": "(?:<strong>|<span class=\"text\">|</time>〜</span>|<p class=\"link\">)(.*?)(?:</div>|<)",
+    "summaryRegex": "(?:<strong>|<span class=\"text\">|<p class=\"link\">)(.*?)(?:</div>|<)",
     "uniqueStrRegex": "",
     "publishedDateRegex": "<time datetime=\"(.*?)\""
   },
