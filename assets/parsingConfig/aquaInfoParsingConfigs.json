@@ -725,7 +725,7 @@
   },
   {
     "aquaName": "サンシャイン水族館",
-    "officialUrl": "",
+    "officialUrl": "https://sunshinecity.jp/aquarium/",
     "type": "水族館",
     "region": "関東",
     "url": "https://sunshinecity.jp/aquarium/",
@@ -736,13 +736,13 @@
     "noticeItemDelimiter": "<li>|</li>|/strong>|<div class=\"lay-notice\">",
     "titleRegex": "(?:<strong>|<span class=\"text\">|<p class=\"link\">)(.*?)(?:</div>|<)",
     "urlRegex": "href=\"(.*?)\"",
-    "summaryRegex": "(?:<strong>|<span class=\"text\">|<p class=\"link\">)(.*?)(?:</div>|<)",
+    "summaryRegex": "",
     "uniqueStrRegex": "",
     "publishedDateRegex": "<time datetime=\"(.*?)\""
   },
   {
     "aquaName": "すみだ水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.sumida-aquarium.com/index.html",
     "type": "水族館",
     "region": "関東",
     "url": "https://www.sumida-aquarium.com/index.html",
@@ -759,7 +759,7 @@
   },
   {
     "aquaName": "しまね海洋館アクアス",
-    "officialUrl": "",
+    "officialUrl": "https://aquas.or.jp/",
     "type": "水族館",
     "region": "中国",
     "url": "https://aquas.or.jp/",
@@ -793,7 +793,7 @@
   },
   {
     "aquaName": "おたる水族館",
-    "officialUrl": "",
+    "officialUrl": "https://otaru-aq.jp/",
     "type": "水族館",
     "region": "北海道",
     "url": "https://otaru-aq.jp/",
@@ -810,7 +810,7 @@
   },
   {
     "aquaName": "海響館",
-    "officialUrl": "",
+    "officialUrl": "https://www.kaikyokan.com/",
     "type": "水族館",
     "region": "中国",
     "url": "https://www.kaikyokan.com/",
@@ -840,6 +840,23 @@
     "urlRegex": "<a href=\"(.*?)\"",
     "summaryRegex": "",
     "uniqueStrRegex": "",
+    "publishedDateRegex": ""
+  },
+  {
+    "aquaName": "登別マリンパークニクス",
+    "officialUrl": "https://nixe-aqua.com/",
+    "type": "水族館",
+    "region": "北海道",
+    "url": "https://nixe-aqua.com/event/",
+    "latitude": 42.45473,
+    "longitude": 141.18242,
+    "noticeBlockStart": "<div class=\"postContentWrap\">",
+    "noticeBlockEnd": "<div class=\"pagenavi\">",
+    "noticeItemDelimiter": "</article>",
+    "titleRegex": "<p class=\"newsTitle\">(.*?)</p>",
+    "urlRegex": "<a href=\"(.*?)\"",
+    "summaryRegex": "",
+    "uniqueStrRegex": "<article class=\"(.*?)\"> ",
     "publishedDateRegex": ""
   },
   {
