@@ -955,7 +955,15 @@
     "region": "東北",
     "url": "https://www.gao-aqua.jp/",
     "latitude": 39.94225,
-    "longitude": 139.70455
+    "longitude": 139.70455,
+    "noticeBlockStart": "<section class=\"section section-news\">",
+    "noticeBlockEnd": "<aside class=\"section section-sns\">",
+    "noticeItemDelimiter": "<section class=\"section section-news\">|<div class=\"col\">|</li>",
+    "titleRegex": "(?:</time>|<div class=\"panel--title\">|<div class=\"panel2--title\">)(.*?)(?:</p>|</a>|</div)",
+    "urlRegex": "href=\"(.*?)\"",
+    "summaryRegex": "(?:<p class=\"panel--text\">|<div class=\"panel2--text\">)(.*?)(?:</p>|</div>)",
+    "uniqueStrRegex": "",
+    "publishedDateRegex": "datetime=\"(.*?)\""
   },
   {
     "aquaName": "伊勢シーパラダイス",
