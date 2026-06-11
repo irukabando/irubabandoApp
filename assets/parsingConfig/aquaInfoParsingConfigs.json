@@ -959,11 +959,26 @@
     "noticeBlockStart": "<section class=\"section section-news\">",
     "noticeBlockEnd": "<aside class=\"section section-sns\">",
     "noticeItemDelimiter": "<section class=\"section section-news\">|<div class=\"col\">|</li>",
-    "titleRegex": "(?:<div class=\"panel--title\">|<div class=\"panel2--title\">|</span></div>|html\">)(.*?)(?:</p>|</a>|</div)",
+    "titleRegex": "(?:</span></div>|html\">)(.*?)(?:</p>|</a>|</div)",
+    "urlRegex": "href=\"(.*?)\"",
+    "summaryRegex": "",
+    "uniqueStrRegex": "",
+    "publishedDateRegex": "datetime=\"(.*?)\""
+  },
+    {
+    "aquaName": "男鹿水族館GAO",
+    "officialUrl": "https://www.gao-aqua.jp/",
+    "type": "水族館",
+    "region": "東北",
+    "url": "https://www.gao-aqua.jp/",
+    "noticeBlockStart": "<section class=\"section section-news\">",
+    "noticeBlockEnd": "<aside class=\"section section-sns\">",
+    "noticeItemDelimiter": "<section class=\"section section-news\">|<div class=\"col\">|</li>",
+    "titleRegex": "(?:<div class=\"panel--title\">|<div class=\"panel2--title\">)(.*?)(?:</p>|</a>|</div)",
     "urlRegex": "href=\"(.*?)\"",
     "summaryRegex": "(?:<p class=\"panel--text\">|<div class=\"panel2--text\">)(.*?)(?:</p>|</div>)",
     "uniqueStrRegex": "",
-    "publishedDateRegex": "datetime=\"(.*?)\""
+    "publishedDateRegex": ""
   },
   {
     "aquaName": "伊勢シーパラダイス",
