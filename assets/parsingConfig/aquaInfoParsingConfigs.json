@@ -1069,5 +1069,23 @@
     "url": "https://www.city.tamano.lg.jp/site/kaihaku/",
     "latitude": 34.45484,
     "longitude": 133.90538
+  },
+  {
+    "aquaName": "山の水族館",
+    "officialUrl": "https://onneyu-aq.com/",
+    "type": "水族館",
+    "region": "北海道",
+    "url": "https://onneyu-aq.com/",
+    "latitude": 43.75472,
+    "longitude": 143.50069
+  },
+  {
+    "aquaName": "AOAO SAPPORO",
+    "officialUrl": "https://aoao-sapporo.blue/",
+    "type": "水族館",
+    "region": "北海道",
+    "url": "https://aoao-sapporo.blue/",
+    "latitude": 43.05755,
+    "longitude": 141.35317
   }
 ]
