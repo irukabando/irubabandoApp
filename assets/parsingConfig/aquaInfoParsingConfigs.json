@@ -8,6 +8,7 @@
     "url": "https://nagoyaaqua.jp/news/",
     "latitude": 35.09066,
     "longitude": 136.87826,
+    "radius": 500,
     "noticeBlockStart": "<div class=\"article-content\">",
     "noticeBlockEnd": "<div class=\"pagination\">",
     "noticeItemDelimiter": "<li>",
