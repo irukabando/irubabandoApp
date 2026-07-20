@@ -941,7 +941,7 @@
     "url": "https://www.nhdzoo.jp/",
     "latitude": 34.98028,
     "longitude": 138.43931,
-    "radius": 5000000
+    "radius": 500
   },
   {
     "aquaName": "浜松動物園",
@@ -952,7 +952,7 @@
     "url": "https://hamazoo.net/",
     "latitude": 34.76574,
     "longitude": 137.63254,
-    "radius": 5000000
+    "radius": 500
   },
   {
     "aquaName": "葛西臨海水族園",
