@@ -1,7 +1,7 @@
 [
   {
     "aquaName": "名古屋港水族館",
-    "officialUrl": "",
+    "officialUrl": "https://nagoyaaqua.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "愛知県",
@@ -20,7 +20,7 @@
   },
   {
     "aquaName": "名古屋港水族館コラム",
-    "officialUrl": "",
+    "officialUrl": "https://nagoyaaqua.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "愛知県",
@@ -36,7 +36,7 @@
   },
   {
     "aquaName": "新江ノ島水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.enosui.com/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "神奈川県",
@@ -54,7 +54,7 @@
   },
   {
     "aquaName": "新江ノ島水族館イベント",
-    "officialUrl": "",
+    "officialUrl": "https://www.enosui.com/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "神奈川県",
@@ -70,7 +70,7 @@
   },
   {
     "aquaName": "鴨川シーワールド",
-    "officialUrl": "",
+    "officialUrl": "https://www.kamogawa-seaworld.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "千葉県",
@@ -88,7 +88,7 @@
   },
   {
     "aquaName": "鴨川シーワールドイベント",
-    "officialUrl": "",
+    "officialUrl": "https://www.kamogawa-seaworld.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "千葉県",
@@ -104,7 +104,7 @@
   },
   {
     "aquaName": "神戸須磨シーワールド",
-    "officialUrl": "",
+    "officialUrl": "https://www.kobesuma-seaworld.jp/",
     "type": "水族館",
     "region": "近畿",
     "prefecture": "兵庫県",
@@ -122,7 +122,7 @@
   },
   {
     "aquaName": "しながわ水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.aquarium.gr.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "東京都",
@@ -140,7 +140,7 @@
   },
   {
     "aquaName": "しながわ水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.aquarium.gr.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "東京都",
@@ -156,7 +156,7 @@
   },
   {
     "aquaName": "マクセルアクアパーク品川",
-    "officialUrl": "",
+    "officialUrl": "https://www.aqua-park.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "東京都",
@@ -174,7 +174,7 @@
   },
   {
     "aquaName": "マクセルアクアパーク品川",
-    "officialUrl": "",
+    "officialUrl": "https://www.aqua-park.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "東京都",
@@ -190,7 +190,7 @@
   },
   {
     "aquaName": "仙台うみの杜水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.uminomori.jp/",
     "type": "水族館",
     "region": "東北",
     "prefecture": "宮城県",
@@ -208,7 +208,7 @@
   },
   {
     "aquaName": "仙台うみの杜水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.uminomori.jp/",
     "type": "水族館",
     "region": "東北",
     "prefecture": "宮城県",
@@ -224,7 +224,7 @@
   },
   {
     "aquaName": "横浜・八景島シーパラダイス",
-    "officialUrl": "",
+    "officialUrl": "https://www.seaparadise.co.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "神奈川県",
@@ -243,7 +243,7 @@
   },
   {
     "aquaName": "横浜・八景島シーパラダイス",
-    "officialUrl": "",
+    "officialUrl": "https://www.seaparadise.co.jp/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "神奈川県",
@@ -259,7 +259,7 @@
   },
   {
     "aquaName": "鳥羽水族館",
-    "officialUrl": "",
+    "officialUrl": "https://aquarium.co.jp/",
     "type": "水族館",
     "region": "近畿",
     "prefecture": "三重県",
@@ -277,7 +277,7 @@
   },
   {
     "aquaName": "うみたまご",
-    "officialUrl": "",
+    "officialUrl": "https://www.umitamago.jp/",
     "type": "水族館",
     "region": "九州",
     "prefecture": "大分県",
@@ -295,7 +295,7 @@
   },
   {
     "aquaName": "マリンワールド海の中道",
-    "officialUrl": "",
+    "officialUrl": "https://marine-world.jp/",
     "type": "水族館",
     "region": "九州",
     "prefecture": "福岡県",
@@ -313,7 +313,7 @@
   },
   {
     "aquaName": "京都水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.kyoto-aquarium.com/",
     "type": "水族館",
     "region": "近畿",
     "prefecture": "京都府",
@@ -331,7 +331,7 @@
   },
   {
     "aquaName": "四国水族館",
-    "officialUrl": "",
+    "officialUrl": "https://shikoku-aquarium.jp/",
     "type": "水族館",
     "region": "四国",
     "prefecture": "香川県",
@@ -349,7 +349,7 @@
   },
   {
     "aquaName": "マリンピア日本海",
-    "officialUrl": "",
+    "officialUrl": "https://www.marinepia.or.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "新潟県",
@@ -367,7 +367,7 @@
   },
   {
     "aquaName": "うみがたり",
-    "officialUrl": "",
+    "officialUrl": "https://www.umigatari.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "新潟県",
@@ -385,7 +385,7 @@
   },
   {
     "aquaName": "うみがたり",
-    "officialUrl": "",
+    "officialUrl": "https://www.umigatari.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "新潟県",
@@ -401,7 +401,7 @@
   },
   {
     "aquaName": "のとじま水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.notoaqua.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "石川県",
@@ -419,7 +419,7 @@
   },
   {
     "aquaName": "のとじま水族館日記",
-    "officialUrl": "",
+    "officialUrl": "https://www.notoaqua.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "石川県",
@@ -435,7 +435,7 @@
   },
   {
     "aquaName": "海遊館",
-    "officialUrl": "",
+    "officialUrl": "https://www.kaiyukan.com/",
     "type": "水族館",
     "region": "近畿",
     "prefecture": "大阪府",
@@ -453,7 +453,7 @@
   },
   {
     "aquaName": "沖縄美ら海水族館",
-    "officialUrl": "",
+    "officialUrl": "https://churaumi.okinawa/",
     "type": "水族館",
     "region": "九州",
     "prefecture": "沖縄県",
@@ -472,7 +472,7 @@
   },
   {
     "aquaName": "下田海中水族館",
-    "officialUrl": "",
+    "officialUrl": "https://shimoda-aquarium.com/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "静岡県",
@@ -490,7 +490,7 @@
   },
   {
     "aquaName": "伊豆・三津シーパラダイス",
-    "officialUrl": "",
+    "officialUrl": "https://www.mitosea.com/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "静岡県",
@@ -508,7 +508,7 @@
   },
   {
     "aquaName": "あわしまマリンパーク",
-    "officialUrl": "",
+    "officialUrl": "https://www.marinepark.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "静岡県",
@@ -526,7 +526,7 @@
   },
   {
     "aquaName": "アドベンチャーワールド",
-    "officialUrl": "",
+    "officialUrl": "https://www.aws-s.com/",
     "type": "動物園",
     "region": "近畿",
     "prefecture": "和歌山県",
@@ -545,7 +545,7 @@
   },
   {
     "aquaName": "アドベンチャーワールド",
-    "officialUrl": "",
+    "officialUrl": "https://www.aws-s.com/",
     "type": "動物園",
     "region": "近畿",
     "prefecture": "和歌山県",
@@ -561,7 +561,7 @@
   },
   {
     "aquaName": "アドベンチャーワールド",
-    "officialUrl": "",
+    "officialUrl": "https://www.aws-s.com/",
     "type": "動物園",
     "region": "近畿",
     "prefecture": "和歌山県",
@@ -577,7 +577,7 @@
   },
   {
     "aquaName": "南知多ビーチランド",
-    "officialUrl": "",
+    "officialUrl": "https://beachland.jp/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "愛知県",
@@ -595,7 +595,7 @@
   },
   {
     "aquaName": "碧南海浜水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.city.hekinan.lg.jp/aquarium/",
     "type": "水族館",
     "region": "中部",
     "prefecture": "愛知県",
@@ -613,7 +613,7 @@
   },
   {
     "aquaName": "浅虫水族館",
-    "officialUrl": "",
+    "officialUrl": "https://asamushi-aqua.com/",
     "type": "水族館",
     "region": "東北",
     "prefecture": "青森県",
@@ -631,7 +631,7 @@
   },
   {
     "aquaName": "加茂水族館",
-    "officialUrl": "",
+    "officialUrl": "https://kamo-kurage.jp/",
     "type": "水族館",
     "region": "東北",
     "prefecture": "山形県",
@@ -647,9 +647,9 @@
     "uniqueStrRegex": "",
     "publishedDateRegex": "<time datetime=\"(.*?)\">"
   },
-    {
+  {
     "aquaName": "加茂水族館",
-    "officialUrl": "",
+    "officialUrl": "https://kamo-kurage.jp/",
     "type": "水族館",
     "region": "東北",
     "prefecture": "山形県",
@@ -667,7 +667,7 @@
   },
   {
     "aquaName": "大洗水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.aquaworld-oarai.com/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "茨城県",
@@ -700,7 +700,7 @@
   },
   {
     "aquaName": "ホエールタウンおしか",
-    "officialUrl": "",
+    "officialUrl": "https://oshika.miyagi.jp/",
     "type": "博物館",
     "region": "東北",
     "prefecture": "宮城県",
@@ -718,7 +718,7 @@
   },
   {
     "aquaName": "くじらの博物館",
-    "officialUrl": "",
+    "officialUrl": "https://www.kujirakan.jp/",
     "type": "博物館",
     "region": "近畿",
     "prefecture": "和歌山県",
@@ -736,7 +736,7 @@
   },
   {
     "aquaName": "箱根園水族館",
-    "officialUrl": "",
+    "officialUrl": "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "神奈川県",
@@ -754,7 +754,7 @@
   },
   {
     "aquaName": "オホーツク・ガリンコタワー",
-    "officialUrl": "",
+    "officialUrl": "https://o-tower.co.jp/",
     "type": "博物館",
     "region": "北海道",
     "prefecture": "北海道",
@@ -790,7 +790,7 @@
   },
   {
     "aquaName": "すみだ水族館",
-    "officialUrl": "https://www.sumida-aquarium.com/index.html",
+    "officialUrl": "https://www.sumida-aquarium.com/",
     "type": "水族館",
     "region": "関東",
     "prefecture": "東京都",
@@ -826,7 +826,7 @@
   },
   {
     "aquaName": "アクアマリンふくしま",
-    "officialUrl": "",
+    "officialUrl": "https://www.aquamarine.or.jp/",
     "type": "水族館",
     "region": "東北",
     "prefecture": "福島県",
@@ -880,7 +880,7 @@
   },
   {
     "aquaName": "城崎マリンワールド",
-    "officialUrl": "",
+    "officialUrl": "https://marineworld.hiyoriyama.co.jp/",
     "type": "水族館",
     "region": "近畿",
     "prefecture": "兵庫県",
@@ -934,7 +934,7 @@
   },
   {
     "aquaName": "日本平動物園",
-    "officialUrl": "",
+    "officialUrl": "https://www.nhdzoo.jp/",
     "type": "動物園",
     "region": "中部",
     "prefecture": "静岡県",
@@ -945,7 +945,7 @@
   },
   {
     "aquaName": "浜松動物園",
-    "officialUrl": "",
+    "officialUrl": "https://hamazoo.net/",
     "type": "動物園",
     "region": "中部",
     "prefecture": "静岡県",
@@ -1032,7 +1032,7 @@
     "uniqueStrRegex": "",
     "publishedDateRegex": "datetime=\"(.*?)\""
   },
-    {
+  {
     "aquaName": "男鹿水族館GAO",
     "officialUrl": "https://www.gao-aqua.jp/",
     "type": "水族館",
