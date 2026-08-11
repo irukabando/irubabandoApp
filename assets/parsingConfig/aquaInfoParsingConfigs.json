@@ -676,7 +676,7 @@
     "longitude": 140.59402,
     "noticeBlockStart": "<div class=\"top_pickup_wrapper\">",
     "noticeBlockEnd": "<div class=\"creature_bottom\">",
-    "noticeItemDelimiter": "(?:</main>|</div></li>|</a></div>)",
+    "noticeItemDelimiter": "</main>|</div>",
     "titleRegex": "(?:<h4 class=\"pickup-card-title\" itemprop=\"headline\">|<dd class=\"list-text\">|<div class=\"caption\"><div>)(.*?)(?:</h4>|</dd>|</div>)",
     "urlRegex": "<a href=\"(.*?)\"",
     "summaryRegex": "(?:<p class=\"pickup-card-description\">|<dd class=\"list-text\">|<div class=\"caption\"><div>)(.*?)(?:</p>|</dd>|</div>)",
