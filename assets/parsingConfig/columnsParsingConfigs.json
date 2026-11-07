@@ -2,6 +2,12 @@
   {
     "aquaName": "コラム",
     "url": "https://irukabando.github.io/irubabandoApp/columns/columns.html",
+    "itemCssSelector": "body div:has(span.data-field)",
+    "titleCssSelector": "span.data-field[data-type=title]",
+    "urlCssSelector": "span.data-field[data-type=url]",
+    "summaryCssSelector": "span.data-field[data-type=content]",
+    "uniqueStrCssSelector": "span.data-field[data-type=id]",
+    "publishedDateCssSelector": "span.data-field[data-type=published_at]",
     "noticeBlockStart": "<body>",
     "noticeBlockEnd": "</body>",
     "noticeItemDelimiter": "</div>",

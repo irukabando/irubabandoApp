@@ -2,6 +2,12 @@
   {
     "aquaName": "開発者から",
     "url": "https://irukabando.github.io/irubabandoApp/notices/notices.html",
+    "itemCssSelector": "#notices-general div:has(span.data-field), #notices-important div:has(span.data-field)",
+    "titleCssSelector": "span.data-field[data-type=title]",
+    "urlCssSelector": "span.data-field[data-type=url]",
+    "summaryCssSelector": "span.data-field[data-type=content]",
+    "uniqueStrCssSelector": "span.data-field[data-type=id]",
+    "publishedDateCssSelector": "span.data-field[data-type=published_at]",
     "noticeBlockStart": "<div id=\"notices-general\">",
     "noticeBlockEnd": "<div class=\"end-of-notices\">",
     "noticeItemDelimiter": "</div>",
